@@ -2,3 +2,13 @@
 *.log
 /references
 **/_pycache__
+
+# latex logs
+*.aux
+*.bbl
+*.bcf
+*.fbd_latexmk
+*.fls
+*.run.xml
+*.synctex.gz
+*.xdv
