@@ -1,0 +1,4 @@
+# ignore all logs
+*.log
+/references
+**/_pycache__
