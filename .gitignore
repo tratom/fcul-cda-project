@@ -12,3 +12,4 @@
 *.run.xml
 *.synctex.gz
 *.xdv
+partial.py
