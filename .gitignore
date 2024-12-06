@@ -12,4 +12,9 @@
 *.run.xml
 *.synctex.gz
 *.xdv
+
+
 partial.py
+
+# LFS
+*.npz
