@@ -50,8 +50,8 @@ def get_membership(G, kw_membership="gt"):
 
 
 # Running directed Louvain algorithm using our Python binding
-def run_directed_louvain(nom_graphe, nom_hierarchy, display_level=-2, weighted=False):
-    dl_obj=dl.Community(filename=nom_graphe, weighted=weighted)
+def run_directed_louvain(nom_graphe, nom_hierarchy, display_level=-2):
+    dl_obj=dl.Community(filename=nom_graphe, precision=0.0001, gamma=1, reproducibility=False, renumbering=True, random=False)
     output=open(nom_hierarchy, "w")
     with contextlib.redirect_stdout(output):
         if display_level != -2:
